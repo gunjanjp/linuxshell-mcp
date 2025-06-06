@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "linux-bash": {
+      "command": "node", 
+      "args": ["D:\\claude\\linux-bash-mcp-server\\src\\index.js"],
+      "env": {
+        "WSL_DISTRIBUTION": "Ubuntu",
+        "DEBUG": "1"
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "name": "linux-bash-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for executing bash commands and scripts via WSL2 on any Linux distribution",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node test/test.js",
+    "setup": "node setup.js",
+    "check-config": "node check-config.js",
+    "debug": "node debug.js",
+    "fix": "node quick-fix.js",
+    "release": "node release.js"
+  },
+  "keywords": [
+    "mcp",
+    "server",
+    "bash",
+    "linux",
+    "wsl2",
+    "shell",
+    "ubuntu",
+    "debian",
+    "fedora",
+    "opensuse",
+    "claude",
+    "anthropic",
+    "model-context-protocol"
+  ],
+  "author": {
+    "name": "Your Name",
+    "email": "your.email@example.com",
+    "url": "https://github.com/yourusername"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/linux-bash-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/linux-bash-mcp-server/issues"
+  },
+  "homepage": "https://github.com/yourusername/linux-bash-mcp-server#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/yourusername"
+  }
+}

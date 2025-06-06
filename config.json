@@ -1,0 +1,12 @@
+{
+  "wslDistribution": "deb12",
+  "defaultTimeout": 30000,
+  "scriptTimeout": 60000,
+  "maxBufferSize": 10485760,
+  "debugMode": true,
+  "selectedDistributionInfo": {
+    "name": "deb12",
+    "detectedAt": "2025-06-06T17:39:59.656Z",
+    "autoDetected": true
+  }
+}
