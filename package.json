@@ -12,7 +12,8 @@
     "check-config": "node check-config.js",
     "debug": "node debug.js",
     "fix": "node quick-fix.js",
-    "release": "node release.js"
+    "release": "node release.js",
+    "monitor": "node monitor.js"
   },
   "keywords": [
     "mcp",
